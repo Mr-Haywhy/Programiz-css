@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: #aff0f1;
+}
+
+.profile-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.profile-section>p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+}
+
+li + li {
+    color: #777;
+    font-size: 18px;
+}
