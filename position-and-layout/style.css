@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.notifications {
+    background: #ddd;
+    height: 100px;
+    width: 100px;
+}
+
+.icon {
+    font-size: 36px;
+
+    /* Enables top/left positioning */
+    position: relative;
+
+    /* Moves the icon 25px away from both 
+    the top and the left of original position */
+    left: 25px;
+    top: 25px;
+}
