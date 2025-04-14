@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%; 
+    background-color: #eee;
+    padding: 20px; 
+
+    position: fixed; 
+    top: 0px;
+}
+
+.content {
+    height: 200vh;
+
+    /* Adding margin to compensate for navbar's height */
+    margin-top: 70px;
+}
